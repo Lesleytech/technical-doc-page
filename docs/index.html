@@ -13,150 +13,144 @@
     <title>Docs | Bootstrap</title>
   </head>
   <body>
-    <div id="wrapper">
-      <nav id="navbar" class="bg-dark text-light">
-        <header>
-          <img src="./logo/logo.svg" alt="Bootstrap logo" /><span
-            >ootstrap Docs</span
+    <nav id="navbar" class="bg-dark text-light">
+      <header>
+        <img src="./logo/logo.svg" alt="Bootstrap logo" /><span
+          >ootstrap Docs</span
+        >
+      </header>
+      <ul>
+        <li>
+          <a href="#Getting_Started" class="nav-link">Getting Started</a>
+        </li>
+        <li><a href="#Layout" class="nav-link">Bootstrap History</a></li>
+        <li><a href="#Content" class="nav-link">Content</a></li>
+        <li><a href="#Components" class="nav-link">Components</a></li>
+        <li><a href="#About" class="nav-link">About</a></li>
+        <li><a href="#Reference" class="nav-link">Reference</a></li>
+      </ul>
+      <small>Coded with <span>❤</span> by Lafen Lesley</small>
+    </nav>
+    <main id="main-doc" class="container">
+      <section class="main-section" id="Getting_Started">
+        <header>Getting Started</header>
+        <article>
+          <p>
+            Bootstrap is an open source toolkit for developing with HTML, CSS,
+            and JS. Quickly prototype your ideas or build your entire app with
+            our Sass variables and mixins, responsive grid system, extensive
+            prebuilt components, and powerful plugins built on jQuery.
+          </p>
+          <ul>
+            <li>
+              Bootstrap is a free front-end framework for faster and easier web
+              development.
+            </li>
+            <li>
+              Bootstrap includes HTML and CSS based design templates for
+              typography, forms, buttons, tables, navigation, modals, image
+              carousels and many other, as well as optional JavaScript plugins.
+            </li>
+            <li>
+              Bootstrap also gives you the ability to easily create responsive
+              designs.
+            </li>
+          </ul>
+          <div
+            style="background-color: #fdfd9f; padding: 15px 15px 5px; margin: 10px 0 15px"
           >
-        </header>
-        <ul>
-          <li>
-            <a href="#Getting_Started" class="nav-link">Getting Started</a>
-          </li>
-          <li><a href="#Layout" class="nav-link">Bootstrap History</a></li>
-          <li><a href="#Content" class="nav-link">Content</a></li>
-          <li><a href="#Components" class="nav-link">Components</a></li>
-          <li><a href="#About" class="nav-link">About</a></li>
-          <li><a href="#Reference" class="nav-link">Reference</a></li>
-        </ul>
-        <small>Coded with <span>❤</span> by Lafen Lesley</small>
-      </nav>
-      <main id="main-doc">
-        <section class="main-section" id="Getting_Started">
-          <header>Getting Started</header>
-          <article>
+            <p><b>What is responsive web design?</b></p>
             <p>
-              Bootstrap is an open source toolkit for developing with HTML, CSS,
-              and JS. Quickly prototype your ideas or build your entire app with
-              our Sass variables and mixins, responsive grid system, extensive
-              prebuilt components, and powerful plugins built on jQuery.
+              Responsive web design is about creating web sites which
+              automatically adjust themselves to look good on all devices, from
+              small phones to large desktops.
             </p>
-            <ul>
-              <li>
-                Bootstrap is a free front-end framework for faster and easier
-                web development.
-              </li>
-              <li>
-                Bootstrap includes HTML and CSS based design templates for
-                typography, forms, buttons, tables, navigation, modals, image
-                carousels and many other, as well as optional JavaScript
-                plugins.
-              </li>
-              <li>
-                Bootstrap also gives you the ability to easily create responsive
-                designs.
-              </li>
-            </ul>
-            <div
-              style="background-color: #fdfd9f; padding: 15px 15px 5px; margin: 10px 0"
-            >
-              <p><b>What is responsive web design?</b></p>
-              <p>
-                Responsive web design is about creating web sites which
-                automatically adjust themselves to look good on all devices,
-                from small phones to large desktops.
-              </p>
-            </div>
-            <p>
-              Looking to quickly add Bootstrap to your project? Use
-              BootstrapCDN, provided for free by the folks at StackPath. Using a
-              package manager or need to download the source files? Head to the
-              downloads page.
-            </p>
-          </article>
-        </section>
-        <section class="main-section" id="Bootrap_History">
-          <header>Bootstrap History</header>
-          <article>
-            <p>
-              Bootstrap was developed by Mark Otto and Jacob Thornton at
-              Twitter, and released as an open source product in August 2011 on
-              GitHub.
-            </p>
-            <p><b>In June 2014 Bootstrap was the No.1 project on GitHub!</b></p>
-          </article>
-        </section>
-        <section class="main-section" id="Content">
-          <header>Why Use Bootstrap?</header>
-          <article>
-            <p>Advantages of Bootstrap:</p>
-            <ul>
-              <li>
-                <b>Easy to use:</b> Anybody with just basic knowledge of HTML
-                and CSS can start using Bootstrap
-              </li>
-              <li>
-                <b>Responsive features:</b> Bootstrap's responsive CSS adjusts
-                to phones, tablets, and desktops
-              </li>
-              <li>
-                <b>Mobile-first approach:</b> In Bootstrap 3, mobile-first
-                styles are part of the core framework
-              </li>
-              <li>
-                <b>Browser compatibility:</b> Bootstrap is compatible with all
-                modern browsers (Chrome, Firefox, Internet Explorer, Edge,
-                Safari, and Opera)
-              </li>
-            </ul>
-          </article>
-        </section>
-        <section class="main-section" id="Components">
-          <header>Bootstrap Grid System</header>
-          <article>
-            <p>
-              Bootstrap's grid system allows up to 12 columns across the page.
-            </p>
-            <p>
-              Bootstrap's grid system is responsive, and the columns will
-              re-arrange automatically depending on the screen size.
-            </p>
-          </article>
-        </section>
-        <section class="main-section" id="About">
-          <header>Grid Classes</header>
-          <article>
-            <p>The Bootstrap grid system has four classes:</p>
-            <ul>
-              <li>
-                <code>xs</code> (for phones - screens less than 768px wide)
-              </li>
-              <li>
-                <code>sm</code> (for tablets - screens equal to or greater than
-                768px wide)
-              </li>
-              <li>
-                <code>md</code> (for small laptops - screens equal to or greater
-                than 992px wide)
-              </li>
-              <li>
-                <code>lg</code> (for laptops and desktops - screens equal to or
-                greater than 1200px wide)
-              </li>
-            </ul>
-            <p>
-              The classes above can be combined to create more dynamic and
-              flexible layouts.
-            </p>
-          </article>
-        </section>
-        <section class="main-section" id="Reference">
-          <header>Basic Structure of a Bootstrap Grid</header>
-          <article>
-            <p>The following is a basic structure of a Bootstrap grid:</p>
-            <code>
-              <xmp class="bg-dark"><div class="row">
+          </div>
+          <p>
+            Looking to quickly add Bootstrap to your project? Use BootstrapCDN,
+            provided for free by the folks at StackPath. Using a package manager
+            or need to download the source files? Head to the downloads page.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Bootrap_History">
+        <header>Bootstrap History</header>
+        <article>
+          <p>
+            Bootstrap was developed by Mark Otto and Jacob Thornton at Twitter,
+            and released as an open source product in August 2011 on GitHub.
+          </p>
+          <p><b>In June 2014 Bootstrap was the No.1 project on GitHub!</b></p>
+        </article>
+      </section>
+      <section class="main-section" id="Content">
+        <header>Why Use Bootstrap?</header>
+        <article>
+          <p>Advantages of Bootstrap:</p>
+          <ul>
+            <li>
+              <b>Easy to use:</b> Anybody with just basic knowledge of HTML and
+              CSS can start using Bootstrap
+            </li>
+            <li>
+              <b>Responsive features:</b> Bootstrap's responsive CSS adjusts to
+              phones, tablets, and desktops
+            </li>
+            <li>
+              <b>Mobile-first approach:</b> In Bootstrap 3, mobile-first styles
+              are part of the core framework
+            </li>
+            <li>
+              <b>Browser compatibility:</b> Bootstrap is compatible with all
+              modern browsers (Chrome, Firefox, Internet Explorer, Edge, Safari,
+              and Opera)
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Components">
+        <header>Bootstrap Grid System</header>
+        <article>
+          <p>
+            Bootstrap's grid system allows up to 12 columns across the page.
+          </p>
+          <p>
+            Bootstrap's grid system is responsive, and the columns will
+            re-arrange automatically depending on the screen size.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="About">
+        <header>Grid Classes</header>
+        <article>
+          <p>The Bootstrap grid system has four classes:</p>
+          <ul>
+            <li><code>xs</code> (for phones - screens less than 768px wide)</li>
+            <li>
+              <code>sm</code> (for tablets - screens equal to or greater than
+              768px wide)
+            </li>
+            <li>
+              <code>md</code> (for small laptops - screens equal to or greater
+              than 992px wide)
+            </li>
+            <li>
+              <code>lg</code> (for laptops and desktops - screens equal to or
+              greater than 1200px wide)
+            </li>
+          </ul>
+          <p>
+            The classes above can be combined to create more dynamic and
+            flexible layouts.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Reference">
+        <header>Basic Structure of a Bootstrap Grid</header>
+        <article>
+          <p>The following is a basic structure of a Bootstrap grid:</p>
+          <code>
+            <xmp class="bg-dark"><div class="row">
   <div class="col-*-*"></div>
   <div class="col-*-*"></div>
  </div>
@@ -168,52 +162,52 @@
 <div class="row">
   ...
 </div></xmp>
-            </code>
-            <p>
-              First, create a row with:
-              <code>
-                <xmp class="bg-dark"><div class="row"></div></xmp></code
-              >Then, add the desired number of columns (tags with appropriate
-              <code>.col-*-*</code> classes). Note that numbers in
-              <code>.col-*-*</code> should always add up to 12 for each row.
-            </p>
-          </article>
-        </section>
-        <section class="main-section" id="Reference">
-          <header>Bootstrap Buttons</header>
-          <article>
-            <p>Bootstrap provides different styles of buttons:</p>
-            <div>
-              <button type="button" class="btn">Basic</button>
-              <button type="button" class="btn btn-primary">Primary</button>
-              <button type="button" class="btn btn-default">Default</button>
-              <button type="button" class="btn btn-success">Success</button>
-              <button type="button" class="btn btn-info">Info</button>
-              <button type="button" class="btn btn-warning">Warning</button>
-              <button type="button" class="btn btn-danger">Danger</button>
-              <button type="button" class="btn btn-link">Link</button>
-            </div>
-            <p style="margin-top: 16px;">
-              To achieve the button styles above, Bootstrap has the following
-              classes:
-            </p>
-            <ul>
-              <li><code>.btn</code></li>
-              <li><code>.btn .btn-primary</code></li>
-              <li><code>.btn .btn-default</code></li>
-              <li><code>.btn .btn-success</code></li>
-              <li><code>.btn .btn-info</code></li>
-              <li><code>.btn .btn-warning</code></li>
-              <li><code>.btn .btn-danger</code></li>
-              <li><code>.btn .btn-link</code></li>
-            </ul>
-            <p>
-              The following example shows the code for the different button
-              styles:
-            </p>
+          </code>
+          <p>
+            First, create a row with:
             <code>
-              <xmp
-                class="bg-dark"><button type="button" class="btn">Basic</button>
+              <xmp class="bg-dark"><div class="row"></div></xmp></code
+            >Then, add the desired number of columns (tags with appropriate
+            <code>.col-*-*</code> classes). Note that numbers in
+            <code>.col-*-*</code> should always add up to 12 for each row.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Bootstrap_History">
+        <header>Bootstrap Buttons</header>
+        <article>
+          <p>Bootstrap provides different styles of buttons:</p>
+          <div id="bootstrap-buttons">
+            <button type="button" class="btn">Basic</button>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-default">Default</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-link">Link</button>
+          </div>
+          <p style="margin-top: 16px;">
+            To achieve the button styles above, Bootstrap has the following
+            classes:
+          </p>
+          <ul>
+            <li><code>.btn</code></li>
+            <li><code>.btn .btn-primary</code></li>
+            <li><code>.btn .btn-default</code></li>
+            <li><code>.btn .btn-success</code></li>
+            <li><code>.btn .btn-info</code></li>
+            <li><code>.btn .btn-warning</code></li>
+            <li><code>.btn .btn-danger</code></li>
+            <li><code>.btn .btn-link</code></li>
+          </ul>
+          <p>
+            The following example shows the code for the different button
+            styles:
+          </p>
+          <code>
+            <xmp
+              class="bg-dark"><button type="button" class="btn">Basic</button>
 <button type="button" class="btn btn-primary">Primary</button>
 <button type="button" class="btn btn-default">Default</button>
 <button type="button" class="btn btn-success">Success</button>
@@ -221,93 +215,92 @@
 <button type="button" class="btn btn-warning">Warning</button>
 <button type="button" class="btn btn-danger">Danger</button>
 <button type="button" class="btn btn-link">Link</button></xmp>
-            </code>
-          </article>
-        </section>
-        <section class="main-section" id="Reference">
-          <header>Button Sizes</header>
-          <article>
-            <p>Bootstrap provides three main button sizes:</p>
-            <div>
-              <button type="button" class="btn btn-primary btn-lg">
-                Large
-              </button>
-              <button type="button" class="btn btn-primary">Normal</button>
-              <button type="button" class="btn btn-primary btn-sm">
-                Small
-              </button>
-            </div>
-            <p style="margin-top: 16px">
-              The classes that define the different sizes are:
-            </p>
-            <ul>
-              <li><code>.btn-lg</code></li>
-              <li><code>.btn</code></li>
-              <li><code>.btn-sm</code></li>
-            </ul>
-            <p>
-              The following example shows the code for different button sizes:
-            </p>
-            <code>
-              <xmp
-                class="bg-dark"><button type="button" class="btn btn-primary btn-lg">Large</button>
+          </code>
+        </article>
+      </section>
+      <section class="main-section" id="Reference">
+        <header>Button Sizes</header>
+        <article>
+          <p>Bootstrap provides three main button sizes:</p>
+          <div>
+            <button type="button" class="btn btn-primary btn-lg">
+              Large
+            </button>
+            <button type="button" class="btn btn-primary">Normal</button>
+            <button type="button" class="btn btn-primary btn-sm">
+              Small
+            </button>
+          </div>
+          <p style="margin-top: 16px">
+            The classes that define the different sizes are:
+          </p>
+          <ul>
+            <li><code>.btn-lg</code></li>
+            <li><code>.btn</code></li>
+            <li><code>.btn-sm</code></li>
+          </ul>
+          <p>
+            The following example shows the code for different button sizes:
+          </p>
+          <code>
+            <xmp
+              class="bg-dark"><button type="button" class="btn btn-primary btn-lg">Large</button>
 <button type="button" class="btn btn-primary">Normal</button>
 <button type="button" class="btn btn-primary btn-sm">Small</button></xmp>
-            </code>
-          </article>
-        </section>
-        <section class="main-section" id="Reference">
-          <header>Active/Disabled Buttons</header>
-          <article>
-            <p>
-              A button can be set to an active (appear pressed) or a disabled
-              (unclickable) state:
-            </p>
-            <div>
-              <button type="button" class="btn btn-primary active">
-                Active Primary
-              </button>
-              <button type="button" class="btn btn-primary disabled">
-                Disabled Primary
-              </button>
-            </div>
-            <p style="margin-top: 16px;">
-              The class .active makes a button appear pressed, and the class
-              .disabled makes a button unclickable:
-            </p>
-            <code>
-              <xmp
-                class="bg-dark"><button type="button" class="btn btn-primary active">Active Primary</button>
+          </code>
+        </article>
+      </section>
+      <section class="main-section" id="Reference">
+        <header>Active/Disabled Buttons</header>
+        <article>
+          <p>
+            A button can be set to an active (appear pressed) or a disabled
+            (unclickable) state:
+          </p>
+          <div>
+            <button type="button" class="btn btn-primary active">
+              Active Primary
+            </button>
+            <button type="button" class="btn btn-primary disabled">
+              Disabled Primary
+            </button>
+          </div>
+          <p style="margin-top: 16px;">
+            The class <code>.active</code> makes a button appear pressed, and
+            the class <code>.disabled</code> makes a button unclickable:
+          </p>
+          <code>
+            <xmp
+              class="bg-dark"><button type="button" class="btn btn-primary active">Active Primary</button>
 <button type="button" class="btn btn-primary disabled">Disabled Primary</button></xmp>
-            </code>
-          </article>
-        </section>
-        <section class="main-section" id="Reference">
-          <header>Learn More</header>
-          <article>
-            <p>
-              You can learn more at
-              <a
-                href="https://getbootstrap.com/docs/4.0/getting-started/introduction/"
-                >Bootstrap's official documentation page</a
-              >.
-            </p>
-          </article>
-        </section>
-        <section class="main-section" id="Reference">
-          <header>Reference</header>
-          <article>
-            <p class="mb-5">
-              All the content on this page can be found at
-              <a href="https://www.w3schools.com/bootstrap/default.asp"
-                >W3schools</a
-              >
-              and I claim no rights of ownership over this content. This page
-              was created just for educational purposes.
-            </p>
-          </article>
-        </section>
-      </main>
-    </div>
+          </code>
+        </article>
+      </section>
+      <section class="main-section" id="Reference">
+        <header>Learn More</header>
+        <article>
+          <p>
+            You can learn more at
+            <a
+              href="https://getbootstrap.com/docs/4.0/getting-started/introduction/"
+              >Bootstrap's official documentation page</a
+            >.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <article>
+          <p class="mb-5">
+            All the content on this page can be found at
+            <a href="https://www.w3schools.com/bootstrap/default.asp"
+              >W3schools</a
+            >
+            and I claim no rights of ownership over this content. This site was
+            developed just for educational purposes.
+          </p>
+        </article>
+      </section>
+    </main>
   </body>
 </html>
