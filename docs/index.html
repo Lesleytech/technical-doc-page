@@ -14,7 +14,7 @@
   </head>
   <body>
     <div id="wrapper">
-      <nav id="navbar">
+      <nav id="navbar" class="bg-dark text-light">
         <header>
           <img src="./logo/logo.svg" alt="Bootstrap logo" /><span
             >ootstrap Docs</span
@@ -57,7 +57,9 @@
                 designs.
               </li>
             </ul>
-            <div style="background-color: lightyellow; padding: 15px;">
+            <div
+              style="background-color: lightyellow; padding: 15px; margin: 10px 0"
+            >
               <p><b>What is responsive web design?</b></p>
               <p>
                 Responsive web design is about creating web sites which
@@ -153,58 +155,156 @@
           <article>
             <p>The following is a basic structure of a Bootstrap grid:</p>
             <code>
-              <xmp class="bg-dark text-left">
-    <div class="row">
-      <div class="col-*-*"></div>
-      <div class="col-*-*"></div>
-    </div>
-    <div class="row">
-      <div class="col-*-*"></div>
-      <div class="col-*-*"></div>
-      <div class="col-*-*"></div>
-    </div>
-    <div class="row">
-      ...
-    </div>
-                </xmp>
+              <xmp class="bg-dark"><div class="row">
+  <div class="col-*-*"></div>
+  <div class="col-*-*"></div>
+ </div>
+<div class="row">
+  <div class="col-*-*"></div>
+  <div class="col-*-*"></div>
+  <div class="col-*-*"></div>
+ </div>
+<div class="row">
+  ...
+</div></xmp>
+            </code>
+            <p>
+              First, create a row with:
+              <code>
+                <xmp class="bg-dark"><div class="row"></div></xmp></code
+              >Then, add the desired number of columns (tags with appropriate
+              <code>.col-*-*</code> classes). Note that numbers in
+              <code>.col-*-*</code> should always add up to 12 for each row.
+            </p>
+          </article>
+        </section>
+        <section class="main-section" id="Reference">
+          <header>Bootstrap Buttons</header>
+          <article>
+            <p>Bootstrap provides different styles of buttons:</p>
+            <div>
+              <button type="button" class="btn">Basic</button>
+              <button type="button" class="btn btn-primary">Primary</button>
+              <button type="button" class="btn btn-default">Default</button>
+              <button type="button" class="btn btn-success">Success</button>
+              <button type="button" class="btn btn-info">Info</button>
+              <button type="button" class="btn btn-warning">Warning</button>
+              <button type="button" class="btn btn-danger">Danger</button>
+              <button type="button" class="btn btn-link">Link</button>
+            </div>
+            <p style="margin-top: 16px;">
+              To achieve the button styles above, Bootstrap has the following
+              classes:
+            </p>
+            <ul>
+              <li><code>.btn</code></li>
+              <li><code>.btn .btn-primary</code></li>
+              <li><code>.btn .btn-default</code></li>
+              <li><code>.btn .btn-success</code></li>
+              <li><code>.btn .btn-info</code></li>
+              <li><code>.btn .btn-warning</code></li>
+              <li><code>.btn .btn-danger</code></li>
+              <li><code>.btn .btn-link</code></li>
+            </ul>
+            <p>
+              The following example shows the code for the different button
+              styles:
+            </p>
+            <code>
+              <xmp
+                class="bg-dark"><button type="button" class="btn">Basic</button>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-default">Default</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-link">Link</button></xmp>
             </code>
           </article>
         </section>
         <section class="main-section" id="Reference">
-          <header>Reference</header>
-          <article></article>
+          <header>Button Sizes</header>
+          <article>
+            <p>Bootstrap provides three main button sizes:</p>
+            <div>
+              <button type="button" class="btn btn-primary btn-lg">
+                Large
+              </button>
+              <button type="button" class="btn btn-primary">Normal</button>
+              <button type="button" class="btn btn-primary btn-sm">
+                Small
+              </button>
+            </div>
+            <p style="margin-top: 16px">
+              The classes that define the different sizes are:
+            </p>
+            <ul>
+              <li><code>.btn-lg</code></li>
+              <li><code>.btn</code></li>
+              <li><code>.btn-sm</code></li>
+            </ul>
+            <p>
+              The following example shows the code for different button sizes:
+            </p>
+            <code>
+              <xmp
+                class="bg-dark"><button type="button" class="btn btn-primary btn-lg">Large</button>
+<button type="button" class="btn btn-primary">Normal</button>
+<button type="button" class="btn btn-primary btn-sm">Small</button></xmp>
+            </code>
+          </article>
+        </section>
+        <section class="main-section" id="Reference">
+          <header>Active/Disabled Buttons</header>
+          <article>
+            <p>
+              A button can be set to an active (appear pressed) or a disabled
+              (unclickable) state:
+            </p>
+            <div>
+              <button type="button" class="btn btn-primary active">
+                Active Primary
+              </button>
+              <button type="button" class="btn btn-primary disabled">
+                Disabled Primary
+              </button>
+            </div>
+            <p style="margin-top: 16px;">
+              The class .active makes a button appear pressed, and the class
+              .disabled makes a button unclickable:
+            </p>
+            <code>
+              <xmp
+                class="bg-dark"><button type="button" class="btn btn-primary active">Active Primary</button>
+<button type="button" class="btn btn-primary disabled">Disabled Primary</button></xmp>
+            </code>
+          </article>
+        </section>
+        <section class="main-section" id="Reference">
+          <header>Learn More</header>
+          <article>
+            <p>
+              You can learn more at
+              <a
+                href="https://getbootstrap.com/docs/4.0/getting-started/introduction/"
+                >Bootstrap's official documentation page</a
+              >.
+            </p>
+          </article>
         </section>
         <section class="main-section" id="Reference">
           <header>Reference</header>
-          <article></article>
-        </section>
-        <section class="main-section" id="Reference">
-          <header>Reference</header>
-          <article></article>
-        </section>
-        <section class="main-section" id="Reference">
-          <header>Reference</header>
-          <article></article>
-        </section>
-        <section class="main-section" id="Reference">
-          <header>Reference</header>
-          <article></article>
-        </section>
-        <section class="main-section" id="Reference">
-          <header>Reference</header>
-          <article></article>
-        </section>
-        <section class="main-section" id="Reference">
-          <header>Reference</header>
-          <article></article>
-        </section>
-        <section class="main-section" id="Reference">
-          <header>Reference</header>
-          <article></article>
-        </section>
-        <section class="main-section" id="Reference">
-          <header>Reference</header>
-          <article></article>
+          <article>
+            <p class="mb-5">
+              All the content on this page can be found at
+              <a href="https://www.w3schools.com/bootstrap/default.asp"
+                >w3schools</a
+              >
+              and I claim no rights of ownership over this content. This page
+              was created for educational purposes.
+            </p>
+          </article>
         </section>
       </main>
     </div>
