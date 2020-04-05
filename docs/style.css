@@ -36,25 +36,22 @@ xmp {
 
 #alt-navbar {
   width: 100%;
-  height: 50px;
+  height: 60px;
   position: fixed;
   z-index: 1000;
   display: none;
   padding: 0 15px;
   box-shadow: 4px 0 4px #000;
-}
-
-#alt-navbar > header {
   color: white;
-  font-size: 20px;
   font-weight: bold;
-  justify-self: center;
 }
 
-#alt-navbar > header > img {
-  width: 32px;
-  transform: rotate(-35deg);
-  margin-right: 7px;
+#alt-navbar > strong {
+  font-size: 24px;
+}
+
+#alt-navbar > button {
+  font-size: 24px;
 }
 
 #toggle-sidebar {
@@ -192,9 +189,9 @@ xmp {
   }
 
   #navbar {
-    top: 50px;
+    top: 60px;
     left: -250px;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 60px);
   }
 
   #navbar > header {
@@ -202,14 +199,14 @@ xmp {
   }
 
   #navbar > ul {
-    max-height: calc(100vh - 100px);
-    height: calc(100vh - 100px);
+    max-height: calc(100vh - 110px);
+    height: calc(100vh - 110px);
   }
 
   #main-doc {
     width: 100%;
     left: 0;
-    top: 50px;
+    top: 60px;
     padding: 0 20px;
   }
 
